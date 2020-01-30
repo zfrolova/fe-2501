@@ -1,7 +1,7 @@
 body {
     background: url('_1220-3465.jpg') center/ cover;
 }
-.header-naw {
+.header-nav {
     list-style: none;
     margin: 0 auto;
     padding: 0;
@@ -10,15 +10,13 @@ body {
     justify-content: center;
     max-width: 660px;
 }
-.header-naw__link :hover {
-}
-.header-naw__item {
+.header-nav__item {
     height: 145px;
     box-sizing: border-box;
     align-items: center;
     display: flex;
 }
-.header-naw__link {
+.header-nav__link {
      display: flex;
      flex-direction: column;
      padding: 0 20px;
@@ -68,5 +66,49 @@ h2 {
     font-size: medium;
     font-weight: bold;
 }
+.footer-nav {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+}
+footer a {
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 18px;
 
+    background-image: linear-gradient(#EE5E4F 50%, #EE5E4F 50%), linear-gradient(silver 50%, silver 50%); 
+    background-position: center bottom; 
+    background-repeat: no-repeat; 
+    background-size: 0 .063em, 100% .063em; 
+    color: #607584; 
+    padding-bottom: .188em; 
+    transition: background-size .5s;
+}
+footer a:hover {
+    background-size: 100% .063em, 100% .063em; 
+    background-position: left bottom;
+}
+.pages > ul{
+    list-style: none;
+    font-size: small; 
+}
+.pages > ul li {
+    padding: 10px 10px;  
+    text-decoration: none; 
+    display: flex; 
+
+}
+.pages-2 {
+    font-size: small; 
+    max-width: 500px;
+    margin: 40px;
+}
+h3 {
+    margin-left: 20px;
+}
+p {
+    text-align: center;
+    font-size: smaller; 
+}
  
