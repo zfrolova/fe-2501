@@ -1,0 +1,75 @@
+body {
+    background: url('_1220-3465.jpg') center / cover;
+    background-color: #383838;
+}
+.header-naw {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 660px;
+}
+.header-naw__link: :hover{
+    /* img[src=1.png][alt=Марти]+img[src=2.png][alt=Док] */
+}
+.header-naw__item {
+    height: 142px;
+    box-sizing: border-box;
+}
+.header-naw__link {
+     display: flex;
+     height: 100%;
+     flex-direction: column;
+     justify-content: center;
+     padding: 0 20px;
+     color: rgb(182, 17, 17);
+     content: \260E;
+}
+.corect{
+    font-style:italic;
+    font-size: 50px; 
+    color: #679c12; 
+    justify-content: center; 
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+}
+.corect:before { 
+    content:"\2615"; 
+    display: inline-block;
+    margin-right: 10px; 
+    }
+h2 {
+    color: rgb(197, 28, 28);
+    font-style:italic;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 550px;
+}
+.list {
+    list-style-type: none;
+    padding: 0 50px;
+    max-width: 500px;
+    
+}
+.list li {
+    padding: 10px 30px;
+    background: linear-gradient(to left, #f8ab8d 0%, white, #f8ab8d);
+    border-bottom: 1px solid grey;
+    color: #506a6b;
+    font-size: 20px;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0, .2);
+    margin-bottom: 5px;
+}
+.background {
+    max-width: 660px;
+    position: absolute;
+    padding: 20px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+ 
